@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "singularName": "location",
+    "pluralName": "locations",
+    "displayName": "binLocation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "text"
+    },
+    "instruction": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "binID": {
+      "type": "string"
+    },
+    "locationID": {
+      "type": "string"
+    }
+  }
+}

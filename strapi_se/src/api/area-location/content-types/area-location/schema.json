@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "area_locations",
+  "info": {
+    "singularName": "area-location",
+    "pluralName": "area-locations",
+    "displayName": "areaLocation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "locationID": {
+      "type": "string"
+    },
+    "areaNameL": {
+      "type": "string"
+    },
+    "areaAddress": {
+      "type": "text"
+    },
+    "areaImage": {
+      "type": "string"
+    },
+    "areaDescription": {
+      "type": "text"
+    },
+    "areaCategory": {
+      "type": "string"
+    },
+    "binList": {
+      "type": "richtext"
+    },
+    "areaNameS": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    }
+  }
+}
