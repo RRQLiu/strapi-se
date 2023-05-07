@@ -20,6 +20,9 @@
     },
     "title": {
       "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
     }
   }
 }
